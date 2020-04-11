@@ -1,15 +1,7 @@
 body {
     background-color: #fff;
     font-family: Roboto;
-    display:flex; 
-    flex-direction:column; 
   }
-
-footer {
-    clear: both;
-    position: relative;
-    margin-top: auto;
-}
 
 ul {
     list-style-type: none;
@@ -29,12 +21,15 @@ a:hover {
     text-decoration: underline;
 }
 
-/** classes **/
+/** Menu **/
 
-.midsection {
-    display: flex;
-    padding-top: 500px;
-    }
+.navbaroben {
+    font-size: 0.75em;
+    margin-top: 5px;
+    clear: both;
+    position: relative;
+    top: 0px;
+}
 
 .mainnavbar {
     color: #000;
@@ -42,34 +37,16 @@ a:hover {
     padding: 6px;
 }
 
-/** IDs **/
-
 #linksoben {
     float: left;
     padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
 #rechtsoben {
     float: right;
     padding-right: 15px;
-  }
-
-#linksunten {
-    float: left;
-    padding-left: 10px;
     padding-top: 5px;
-  }
-
-#rechtsunten {
-    float: right;
-    padding-right: 15px;
-    align-self: flex-end;
-  }
-
-#navbaroben {
-    font-size: 0.75em;
-    margin-top: 5px;
   }
 
 #anmelden {
@@ -87,4 +64,56 @@ a:hover {
     font-weight: 600;
     font-size: 0.8em;
 }
+/** page content **/
 
+.midsection {
+    display: flex;
+    padding-top: 500px;
+}
+
+#logo {
+    height: 80%;
+}
+
+/** footer **/
+
+footer {
+    clear: both;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    margin-top: auto;
+    background-color: rgba(224, 224, 224, 0.54);
+    color: rgba(0,0,0,.54);
+    font-size: 0.8em;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottomnavbar{
+    color: rgba(0,0,0,.54);
+    padding: 8px;
+}
+
+#deutschland {
+    padding-left: 25px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(219, 219, 219);
+    border-width: 1px;
+    font-size: 13px;
+}
+
+#linksunten {
+    float: left;
+    padding-left: 17px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
+
+#rechtsunten {
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
