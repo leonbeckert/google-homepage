@@ -1,0 +1,90 @@
+body {
+    background-color: #fff;
+    font-family: Roboto;
+    display:flex; 
+    flex-direction:column; 
+  }
+
+footer {
+    clear: both;
+    position: relative;
+    margin-top: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/** classes **/
+
+.midsection {
+    display: flex;
+    padding-top: 500px;
+    }
+
+.mainnavbar {
+    color: #000;
+    opacity: 0.75;
+    padding: 6px;
+}
+
+/** IDs **/
+
+#linksoben {
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+
+#rechtsoben {
+    float: right;
+    padding-right: 15px;
+  }
+
+#linksunten {
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+
+#rechtsunten {
+    float: right;
+    padding-right: 15px;
+    align-self: flex-end;
+  }
+
+#navbaroben {
+    font-size: 0.75em;
+    margin-top: 5px;
+  }
+
+#anmelden {
+    background-color: #4285f4;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+#anmeldetext {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
