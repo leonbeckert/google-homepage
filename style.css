@@ -105,12 +105,24 @@ a:hover {
     flex-direction: row;
 }
 
-.suchklick {
+#suche {
+    background-color: #f1f1f1;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    margin: 0px 5px 0px 5px;
+}
+
+#suchklick {
     text-decoration: none;
+    color: black;
+    opacity: 0.55;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #ei-nstellungen{
-    margin: 30px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 #sprache {
